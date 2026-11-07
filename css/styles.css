@@ -233,6 +233,17 @@ section {
     padding: 20px 30px;
     border-radius: 10px;
     transition: all 0.3s ease;
+    position: relative;
+}
+
+.package-card span {
+    position: absolute;
+    right: 8%;
+    top: -3%;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #FF4E4E;
+    border-radius: 13.5px;
 }
 
 .package-card h2 {
